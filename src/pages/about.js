@@ -19,6 +19,7 @@ export default function AboutPage() {
             {/* Add your fruits below! */}
             <FruitInfo name="Albert" fruitName="i love me some peaches!" fruitPic="/img/fruits/peaches.jpg"/>
             <FruitInfo name="Andrew" fruitName="mangos r good" fruitPic="/img/fruits/mangos.jpg"/>
+            <FruitInfo name="Cynthia" fruitName="juicy watermelons" fruitPic="/img/fruits/watermelon.jpg"/>
         </>
     )
 }
