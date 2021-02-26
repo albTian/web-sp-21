@@ -6,8 +6,7 @@ import { Link } from "gatsby"
 export default function Home() {
   return(
     <>
-      <div>Hi web team! If you got here then nice :) </div>
-      <h3>add your name and favorite fruit to the about page</h3>
+      <div>albert ahah this is the staging!</div>
       <Link to="/about">to about page</Link>
     </>
   ) 

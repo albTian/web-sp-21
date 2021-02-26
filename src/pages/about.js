@@ -22,6 +22,9 @@ export default function AboutPage() {
             <FruitInfo name="Ryo" fruitName="durians are creamy" fruitPic="/img/fruits/Durian-Fruit.jpg"/>
             <FruitInfo name="Elisabeth" fruitName="blackberries are so yummy" fruitPic="/img/fruits/blackberries.jpg"/>
             <FruitInfo name="Cynthia" fruitName="juicy watermelons" fruitPic="/img/fruits/watermelon.jpg"/>
+            <FruitInfo name="Davina" fruitName="banaenaes" fruitPic="/img/fruits/banana.jpeg" />
+            <FruitInfo name="Michelle" fruitName="tangy tangerines hellohihihi" fruitPic="/img/fruits/tangerines.jpg" />
+
         </>
     )
 }
