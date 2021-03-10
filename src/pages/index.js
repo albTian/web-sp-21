@@ -6,8 +6,16 @@ import { Link } from "gatsby"
 export default function Home() {
   return(
     <>
-      <div>albert ahah this is the staging!</div>
-      <Link to="/about">to about page</Link>
+      <Link to="/home">Home </Link>
+      <Link to="/aboutreach">About </Link>
+      <Link to="/announcements">Announcements </Link>
+      <Link to="/programs">Programs </Link>
+      <Link to="/team">Team </Link>
+      <Link to="/media">Media </Link>
+      <Link to="/blog">Blog </Link>
+      <div>reach's home page!!!!</div>
+
+
     </>
   ) 
 }
