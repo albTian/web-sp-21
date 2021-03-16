@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import Navbar from "./components/Navbar"
+
 
 function TeamInfo(props) {
     return (
@@ -14,22 +16,17 @@ function TeamInfo(props) {
 export default function Team() {
     return (
         <>
-            <div>reach's team page</div>
-            <Link to="/">Home </Link>
-            <Link to="/aboutreach">About </Link>
-            <Link to="/announcements">Announcements </Link>
-            <Link to="/programs">Programs </Link>
-            <Link to="/team">Team </Link>
-            <Link to="/media">Media </Link>
-            <Link to="/blog">Blog </Link>
+            <Navbar> </Navbar>
+            <div>Our Team</div>
+
            
-            <TeamInfo name="" teamPosition="" teamPic=""/>
-            <TeamInfo name="" teamPosition="" teamPic=""/>
-            <TeamInfo name="" teamPosition="" teamPic=""/>
-            <TeamInfo name="" teamPosition="" teamPic=""/>
-            <TeamInfo name="" teamPosition="" teamPic=""/>
-            <TeamInfo name="" teamPosition="" teamPic="" />
-            <TeamInfo name="" teamPosition="" teamPic="" />
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruis/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
 
         </>
     )
