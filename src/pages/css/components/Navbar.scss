@@ -1,0 +1,27 @@
+
+/* Add a background color to the top navigation */
+.topnavRight {
+    background-color: #333333;
+    font: Poppins;
+    font-size: 14px;
+    overflow: hidden;
+    float: right
+}
+
+/* Change the color of links on hover */
+.topnavRight a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  font: Poppins-Bold;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnavRight {
+  float: right;
+}
+

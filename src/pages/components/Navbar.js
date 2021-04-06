@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import components from 'src/pages/css/components/Navbar.scss';
+import Components from 'src/pages/css/components/Navbar.scss';
 
 export default function Navbar() {
 	return (
