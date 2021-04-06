@@ -24,7 +24,7 @@ export default function Team() {
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
-            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruis/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
 
