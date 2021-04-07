@@ -1,0 +1,34 @@
+backend: 
+  name: git-gateway
+  branch: main
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "assets"
+    label: "Assets"
+    create: true
+    editor: 
+      preview: true
+    files:
+      - label: "About"
+        name: about
+        file: src/components/md-store/assets/about.json
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Year", name: "year", widget: "string"}
+          - {label: "Image", name: "image", widget: "image", allow_multiple: true}
+  # - name: "settings"
+  #   label: "Setting"
+  #   create: true
+  #   editor: 
+  #     preview: true
+  #   files:
+  #     - label: "Contact Info"
+  #       name: contact_info
+  #       file: import * as React from "react"
+  #       fields:
+  #         - {label: "Name", name: "name", widget: "string"}
+  #         - {label: "Year", name: "year", widget: "string"}
+
