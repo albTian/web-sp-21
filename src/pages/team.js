@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import Navbar from "./components/Navbar"
+import Navbar from "../components/Navbar.js"
+
 
 
 function TeamInfo(props) {
@@ -24,7 +25,7 @@ export default function Team() {
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
-            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruis/banana.jpeg"/>
+            <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg"/>
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
             <TeamInfo name="Johnny Appleseed" teamPosition="President" teamPic="img/fruits/banana.jpeg" />
 
