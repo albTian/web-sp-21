@@ -7,7 +7,6 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -18,5 +17,23 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
+
+// module.exports = {
+//   /* Your site config here */
+//   plugins: [
+//     {
+//       resolve: `gatsby-source-filesystem`,
+//       options: {
+//         name: `data`,
+//         path: `${__dirname}/src/md-store`,
+//       },
+//     },
+//     `gatsby-transformer-remark`,
+//     `gatsby-transformer-sharp`,
+//     `gatsby-plugin-sharp`,
+//     `gatsby-plugin-netlify-cms`,
+//   ],
+// }
